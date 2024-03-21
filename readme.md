@@ -806,3 +806,4 @@ console.log(bufSlice.toString());  // Output: Hel
 3. **Server Operations**: Streams facilitate data transfer for operations such as network requests, database communications, and more.
 
 4. **Pipelines**: Streams can be easily combined using `pipe()` to create powerful, efficient operations called pipelines. For instance, to compress a file and then write it to disk, you can pipe a readable stream to a transform stream and then to a writable stream. This arrangement neatly dictates the flow of data.
+**[⬆ Back to Top](#table-of-contents)**

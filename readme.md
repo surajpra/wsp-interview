@@ -3,7 +3,7 @@
 
 | No. | Questions |
 | --- | --------- |
-|   | **Node JS** |
+| 1  | [What is Node.js and why is it used?](#1-what-is-nodejs-and-why-is-it-used) |
 
 | [1. What is Node.js and why is it used?](#1-what-is-nodejs-and-why-is-it-used) | 
 | [2. How does Node.js handle child threads?](#2-how-does-nodejs-handle-child-threads) | 

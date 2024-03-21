@@ -1,21 +1,21 @@
 
 ### Table of Contents
 
-[1. What is Node.js and why is it used?](#1-what-is-nodejs-and-why-is-it-used) <br> 
-[2. How does Node.js handle child threads?](#2-how-does-nodejs-handle-child-threads) <br> 
-[3. Describe the event-driven programming in Node.js.](#3-describe-the-event-driven-programming-in-nodejs) <br> 
-[4. What is the event loop in Node.js?](#4-what-is-the-event-loop-in-nodejs) <br> 
-[5. What is the difference between Node.js and traditional web server technologies?](#5-what-is-the-difference-between-nodejs-and-traditional-web-server-technologies) <br> 
-[6. Explain what "non-blocking" means in Node.js.](#6-explain-what-non-blocking-means-in-nodejs) <br> 
-[7. How do you update Node.js to the latest version?](#7-how-do-you-update-nodejs-to-the-latest-version) <br> 
-[8. What is "npm" and what is it used for?](#8-what-is-npm-and-what-is-it-used-for) <br> 
-[9. How do you manage packages in a Node.js project?](#9-how-do-you-manage-packages-in-a-nodejs-project) <br> 
-[10. What is a package.json file?](#10-what-is-a-packagejson-file) <br> 
-[11. Describe some of the core modules of Node.js.](#11-describe-some-of-the-core-modules-of-nodejs) <br> 
-[12. How do you create a simple server in Node.js using the HTTP module?](#12-how-do-you-create-a-simple-server-in-nodejs-using-the-http-module) <br> 
-[13. Explain the purpose of the File System (fs) module.](#13-explain-the-purpose-of-the-file-system-fs-module) <br> 
-[14. What is the Buffer class in Node.js?](#14-what-is-the-buffer-class-in-nodejs) <br> 
-[15. What are streams in Node.js and what types are available?](#15-what-are-streams-in-nodejs-and-what-types-are-available) <br> 
+|[1. What is Node.js and why is it used?](#1-what-is-nodejs-and-why-is-it-used) | 
+|[2. How does Node.js handle child threads?](#2-how-does-nodejs-handle-child-threads) | 
+|[3. Describe the event-driven programming in Node.js.](#3-describe-the-event-driven-programming-in-nodejs) | 
+|[4. What is the event loop in Node.js?](#4-what-is-the-event-loop-in-nodejs) | 
+|[5. What is the difference between Node.js and traditional web server technologies?](#5-what-is-the-difference-between-nodejs-and-traditional-web-server-technologies) | 
+|[6. Explain what "non-blocking" means in Node.js.](#6-explain-what-non-blocking-means-in-nodejs) | 
+|[7. How do you update Node.js to the latest version?](#7-how-do-you-update-nodejs-to-the-latest-version) | 
+|[8. What is "npm" and what is it used for?](#8-what-is-npm-and-what-is-it-used-for) | 
+|[9. How do you manage packages in a Node.js project?](#9-how-do-you-manage-packages-in-a-nodejs-project) | 
+|[10. What is a package.json file?](#10-what-is-a-packagejson-file) | 
+|[11. Describe some of the core modules of Node.js.](#11-describe-some-of-the-core-modules-of-nodejs) | 
+|[12. How do you create a simple server in Node.js using the HTTP module?](#12-how-do-you-create-a-simple-server-in-nodejs-using-the-http-module) | 
+|[13. Explain the purpose of the File System (fs) module.](#13-explain-the-purpose-of-the-file-system-fs-module) | 
+|[14. What is the Buffer class in Node.js?](#14-what-is-the-buffer-class-in-nodejs) | 
+|[15. What are streams in Node.js and what types are available?](#15-what-are-streams-in-nodejs-and-what-types-are-available) | 
 
 ## 1. What is Node.js and why is it used?
 
@@ -806,4 +806,3 @@ console.log(bufSlice.toString());  // Output: Hel
 3. **Server Operations**: Streams facilitate data transfer for operations such as network requests, database communications, and more.
 
 4. **Pipelines**: Streams can be easily combined using `pipe()` to create powerful, efficient operations called pipelines. For instance, to compress a file and then write it to disk, you can pipe a readable stream to a transform stream and then to a writable stream. This arrangement neatly dictates the flow of data.
-**[⬆ Back to Top](#table-of-contents)**
